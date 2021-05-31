@@ -21,7 +21,9 @@ namespace StacksAndQueue
             queue.Enqueue(30); 
             queue.Enqueue(70);
             queue.Display(); 
-            queue.Peek(); 
+            queue.Peek();
+            queue.Dequeue(); 
+            queue.IsEmpty(); 
 
             Console.ReadLine();
         }
