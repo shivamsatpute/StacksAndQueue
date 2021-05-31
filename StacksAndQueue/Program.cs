@@ -12,6 +12,10 @@ namespace StacksAndQueue
             stack.Push(30);  
             stack.Push(70);
             stack.Display();
+            stack.Peek(); 
+            stack.Pop(); 
+            stack.isEmpty(); 
+
             Console.ReadLine();
         }
     }
